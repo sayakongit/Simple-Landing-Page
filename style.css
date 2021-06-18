@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    padding-top: 20px;
+}
+.logo{
+    position:absolute;
+    left: 120px;
+    top: 18px;
+    display: inline-block;
+}
+.nav-bar{
+    display: block;
+    width: 35.5%;
+    margin: 32px auto;
+}
+.right{
+    position:absolute;
+    right: 120px;
+    top: 38px;
+    display: inline-block;
+
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    padding: 34px 12px;
+    font-size: 16px;
+}
+.nav li a:hover, .nav li a.active{
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+.logo img{
+    width: 60px;
+    margin-top: 12px;
+}
+.logo div{
+    text-align: center;
+    font-size: 12px;
+    margin: -6px;
+}
+.btn{
+    font-family: 'Roboto Mono', monospace;
+    margin: 4px ;
+    padding: 10px 14px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#Sign{
+    border: 1px solid black ;
+}
+.container{
+    display: inline-block;
+    margin: 100px 120px;
+    margin-bottom: 16px;
+    width: 500px;
+
+}
+.content{
+    padding-top: -2px;
+    font-size: 15px;
+}
+.photo img{
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    margin-left: 120px;
+    width: 625px;
+
+}
+.container h1{
+    font-size: 40px;
+}
